@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="12" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-10T16:14:43 IST" name="Suite" finished-at="2023-07-10T16:15:12 IST" duration-ms="28778">
+    <groups>
+      <group name="regression">
+        <method signature="CreatingProductAndPlacingOrder.creatingProductAndPlacingOrderTest()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" name="creatingProductAndPlacingOrderTest" class="Com.Patiquette.SCM.CreatingProductAndPlacingOrder"/>
+        <method signature="EditRetailerProfile.newOrderDetailsTest()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" name="newOrderDetailsTest" class="Com.Patiquette.SCM.EditRetailerProfile"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreatingProductAndPlacingOrder.creatingProductAndPlacingOrderTest()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" name="creatingProductAndPlacingOrderTest" class="Com.Patiquette.SCM.CreatingProductAndPlacingOrder"/>
+        <method signature="EditRetailerProfile.newOrderDetailsTest()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" name="newOrderDetailsTest" class="Com.Patiquette.SCM.EditRetailerProfile"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-07-10T16:14:43 IST" name="Test" finished-at="2023-07-10T16:15:12 IST" duration-ms="28778">
+      <class name="Com.Patiquette.SCM.EditRetailerProfile">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" started-at="2023-07-10T16:14:43 IST" name="launchBrowser" finished-at="2023-07-10T16:14:49 IST" duration-ms="6122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" started-at="2023-07-10T16:14:50 IST" name="login" finished-at="2023-07-10T16:14:51 IST" duration-ms="1854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="newOrderDetailsTest()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" started-at="2023-07-10T16:14:51 IST" name="newOrderDetailsTest" finished-at="2023-07-10T16:14:56 IST" duration-ms="4243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newOrderDetailsTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" started-at="2023-07-10T16:14:56 IST" name="logout" finished-at="2023-07-10T16:14:56 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" started-at="2023-07-10T16:14:56 IST" name="closeBrowser" finished-at="2023-07-10T16:14:56 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Com.Patiquette.SCM.EditRetailerProfile -->
+      <class name="Com.Patiquette.SCM.SearchInvoiceByDate">
+        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:Com.Patiquette.SCM.SearchInvoiceByDate@158d2680]" started-at="2023-07-10T16:14:43 IST" name="connectDatabase" finished-at="2023-07-10T16:14:43 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDatabase -->
+        <test-method is-config="true" signature="disconnectDatabase()[pri:0, instance:Com.Patiquette.SCM.SearchInvoiceByDate@158d2680]" started-at="2023-07-10T16:15:12 IST" name="disconnectDatabase" finished-at="2023-07-10T16:15:12 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDatabase -->
+      </class> <!-- Com.Patiquette.SCM.SearchInvoiceByDate -->
+      <class name="Com.Patiquette.SCM.CreatingProductAndPlacingOrder">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" started-at="2023-07-10T16:14:56 IST" name="launchBrowser" finished-at="2023-07-10T16:15:00 IST" duration-ms="4189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" started-at="2023-07-10T16:15:00 IST" name="login" finished-at="2023-07-10T16:15:01 IST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="creatingProductAndPlacingOrderTest()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" started-at="2023-07-10T16:15:01 IST" name="creatingProductAndPlacingOrderTest" finished-at="2023-07-10T16:15:12 IST" duration-ms="10761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingProductAndPlacingOrderTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" started-at="2023-07-10T16:15:12 IST" name="logout" finished-at="2023-07-10T16:15:12 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" started-at="2023-07-10T16:15:12 IST" name="closeBrowser" finished-at="2023-07-10T16:15:12 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Com.Patiquette.SCM.CreatingProductAndPlacingOrder -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
