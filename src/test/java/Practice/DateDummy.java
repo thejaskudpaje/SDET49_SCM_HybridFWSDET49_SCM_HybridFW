@@ -22,10 +22,11 @@ System.out.println(d);
 int day = c.get(Calendar.DATE);
 System.out.println(day);
 Calendar cal = Calendar.getInstance();
-	//welcome to git
+	
 int date = cal.get(Calendar.DAY_OF_MONTH);
 System.out.println(date);
 javautility ju=new javautility();
 System.out.println(ju.getDateTimeMinSec());
+	//welcome to git helloo
 }
 }
