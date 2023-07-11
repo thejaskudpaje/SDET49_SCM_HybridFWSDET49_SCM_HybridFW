@@ -29,5 +29,6 @@ javautility ju=new javautility();
 System.out.println(ju.getDateTimeMinSec());
 	//welcome to git helloo
 //pushing 1st time
+//pushing 2nd time
 }
 }
