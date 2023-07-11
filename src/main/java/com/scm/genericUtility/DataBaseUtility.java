@@ -1,4 +1,4 @@
-package com.scm.genericUtility;
+ package com.scm.genericUtility;
 
 import java.io.IOException;
 import java.sql.Connection;
