@@ -28,5 +28,6 @@ System.out.println(date);
 javautility ju=new javautility();
 System.out.println(ju.getDateTimeMinSec());
 	//welcome to git helloo
+//pushing 1st time
 }
 }
