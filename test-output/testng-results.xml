@@ -1,73 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="12" passed="2" failed="0" skipped="0">
+<testng-results retried="3" ignored="0" total="4" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-10T16:14:43 IST" name="Suite" finished-at="2023-07-10T16:15:12 IST" duration-ms="28778">
+  <suite started-at="2023-07-13T17:42:34 IST" name="Default suite" finished-at="2023-07-13T17:43:16 IST" duration-ms="41816">
     <groups>
-      <group name="regression">
-        <method signature="CreatingProductAndPlacingOrder.creatingProductAndPlacingOrderTest()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" name="creatingProductAndPlacingOrderTest" class="Com.Patiquette.SCM.CreatingProductAndPlacingOrder"/>
-        <method signature="EditRetailerProfile.newOrderDetailsTest()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" name="newOrderDetailsTest" class="Com.Patiquette.SCM.EditRetailerProfile"/>
-      </group> <!-- regression -->
       <group name="smoke">
-        <method signature="CreatingProductAndPlacingOrder.creatingProductAndPlacingOrderTest()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" name="creatingProductAndPlacingOrderTest" class="Com.Patiquette.SCM.CreatingProductAndPlacingOrder"/>
-        <method signature="EditRetailerProfile.newOrderDetailsTest()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" name="newOrderDetailsTest" class="Com.Patiquette.SCM.EditRetailerProfile"/>
+        <method signature="CreateNewRetailer.CreateNewRetailerTest()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" name="CreateNewRetailerTest" class="Com.Patiquette.SCM.CreateNewRetailer"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-07-10T16:14:43 IST" name="Test" finished-at="2023-07-10T16:15:12 IST" duration-ms="28778">
-      <class name="Com.Patiquette.SCM.EditRetailerProfile">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" started-at="2023-07-10T16:14:43 IST" name="launchBrowser" finished-at="2023-07-10T16:14:49 IST" duration-ms="6122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" started-at="2023-07-10T16:14:50 IST" name="login" finished-at="2023-07-10T16:14:51 IST" duration-ms="1854" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="newOrderDetailsTest()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" started-at="2023-07-10T16:14:51 IST" name="newOrderDetailsTest" finished-at="2023-07-10T16:14:56 IST" duration-ms="4243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newOrderDetailsTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" started-at="2023-07-10T16:14:56 IST" name="logout" finished-at="2023-07-10T16:14:56 IST" duration-ms="136" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Com.Patiquette.SCM.EditRetailerProfile@6adbc9d]" started-at="2023-07-10T16:14:56 IST" name="closeBrowser" finished-at="2023-07-10T16:14:56 IST" duration-ms="148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Com.Patiquette.SCM.EditRetailerProfile -->
-      <class name="Com.Patiquette.SCM.SearchInvoiceByDate">
-        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:Com.Patiquette.SCM.SearchInvoiceByDate@158d2680]" started-at="2023-07-10T16:14:43 IST" name="connectDatabase" finished-at="2023-07-10T16:14:43 IST" duration-ms="355" status="PASS">
+    <test started-at="2023-07-13T17:42:34 IST" name="Default test" finished-at="2023-07-13T17:43:16 IST" duration-ms="41816">
+      <class name="Com.Patiquette.SCM.CreateNewRetailer">
+        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:42:33 IST" name="connectDatabase" finished-at="2023-07-13T17:42:34 IST" duration-ms="693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectDatabase -->
-        <test-method is-config="true" signature="disconnectDatabase()[pri:0, instance:Com.Patiquette.SCM.SearchInvoiceByDate@158d2680]" started-at="2023-07-10T16:15:12 IST" name="disconnectDatabase" finished-at="2023-07-10T16:15:12 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disconnectDatabase -->
-      </class> <!-- Com.Patiquette.SCM.SearchInvoiceByDate -->
-      <class name="Com.Patiquette.SCM.CreatingProductAndPlacingOrder">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" started-at="2023-07-10T16:14:56 IST" name="launchBrowser" finished-at="2023-07-10T16:15:00 IST" duration-ms="4189" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:42:35 IST" name="launchBrowser" finished-at="2023-07-13T17:42:48 IST" duration-ms="13210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" started-at="2023-07-10T16:15:00 IST" name="login" finished-at="2023-07-10T16:15:01 IST" duration-ms="889" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:42:48 IST" name="login" finished-at="2023-07-13T17:42:54 IST" duration-ms="5907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="creatingProductAndPlacingOrderTest()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" started-at="2023-07-10T16:15:01 IST" name="creatingProductAndPlacingOrderTest" finished-at="2023-07-10T16:15:12 IST" duration-ms="10761" status="PASS">
+        <test-method retried="true" signature="CreateNewRetailerTest()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:42:54 IST" name="CreateNewRetailerTest" finished-at="2023-07-13T17:42:57 IST" duration-ms="2835" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+validation fail expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+validation fail expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at Com.Patiquette.SCM.CreateNewRetailer.CreateNewRetailerTest(CreateNewRetailer.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- creatingProductAndPlacingOrderTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" started-at="2023-07-10T16:15:12 IST" name="logout" finished-at="2023-07-10T16:15:12 IST" duration-ms="140" status="PASS">
+        </test-method> <!-- CreateNewRetailerTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:42:57 IST" name="logout" finished-at="2023-07-13T17:42:57 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Com.Patiquette.SCM.CreatingProductAndPlacingOrder@4ec4f3a0]" started-at="2023-07-10T16:15:12 IST" name="closeBrowser" finished-at="2023-07-10T16:15:12 IST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:42:57 IST" name="login" finished-at="2023-07-13T17:42:59 IST" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method retried="true" signature="CreateNewRetailerTest()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:42:59 IST" name="CreateNewRetailerTest" finished-at="2023-07-13T17:43:02 IST" duration-ms="2146" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+validation fail expected [true] but found [false],
+validation fail expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+validation fail expected [true] but found [false],
+validation fail expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at Com.Patiquette.SCM.CreateNewRetailer.CreateNewRetailerTest(CreateNewRetailer.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewRetailerTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:43:02 IST" name="logout" finished-at="2023-07-13T17:43:02 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:43:02 IST" name="login" finished-at="2023-07-13T17:43:04 IST" duration-ms="2661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method retried="true" signature="CreateNewRetailerTest()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:43:04 IST" name="CreateNewRetailerTest" finished-at="2023-07-13T17:43:08 IST" duration-ms="3949" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+validation fail expected [true] but found [false],
+validation fail expected [true] but found [false],
+validation fail expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+validation fail expected [true] but found [false],
+validation fail expected [true] but found [false],
+validation fail expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at Com.Patiquette.SCM.CreateNewRetailer.CreateNewRetailerTest(CreateNewRetailer.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewRetailerTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:43:08 IST" name="logout" finished-at="2023-07-13T17:43:09 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:43:09 IST" name="login" finished-at="2023-07-13T17:43:11 IST" duration-ms="2654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateNewRetailerTest()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:43:11 IST" name="CreateNewRetailerTest" finished-at="2023-07-13T17:43:13 IST" duration-ms="1661" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+validation fail expected [true] but found [false],
+validation fail expected [true] but found [false],
+validation fail expected [true] but found [false],
+validation fail expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+validation fail expected [true] but found [false],
+validation fail expected [true] but found [false],
+validation fail expected [true] but found [false],
+validation fail expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at Com.Patiquette.SCM.CreateNewRetailer.CreateNewRetailerTest(CreateNewRetailer.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewRetailerTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:43:14 IST" name="logout" finished-at="2023-07-13T17:43:14 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:43:14 IST" name="closeBrowser" finished-at="2023-07-13T17:43:16 IST" duration-ms="1675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Com.Patiquette.SCM.CreatingProductAndPlacingOrder -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method is-config="true" signature="disconnectDatabase()[pri:0, instance:Com.Patiquette.SCM.CreateNewRetailer@564fabc8]" started-at="2023-07-13T17:43:18 IST" name="disconnectDatabase" finished-at="2023-07-13T17:43:19 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDatabase -->
+      </class> <!-- Com.Patiquette.SCM.CreateNewRetailer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
