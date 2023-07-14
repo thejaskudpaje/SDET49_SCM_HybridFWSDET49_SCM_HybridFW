@@ -6,6 +6,8 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import org.testng.annotations.BeforeClass;
+
 import com.mysql.jdbc.Driver;
 /**
  * used to connect to Db & perform DB specific Operations
